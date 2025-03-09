@@ -39,7 +39,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6, duration: 0.8 }}
-        className="bg-gray-100 rounded-3xl p-10 shadow-2xl max-w-3xl w-full"
+        className="bg-gray-100 flex flex-col items-center rounded-3xl p-10 shadow-2xl max-w-3xl w-full"
       >
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Nosso Álbum de Fotos 📸💖</h2>
         <Album />
@@ -61,7 +61,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.0, duration: 0.8 }}
-        className="bg-gray-100 rounded-3xl p-10 shadow-2xl max-w-3xl w-full"
+        className="bg-gray-100 flex flex-col items-center rounded-3xl p-10 shadow-2xl max-w-3xl w-full"
       >
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Nossas Músicas Favoritas 🎶💓</h2>
         <SpotifyPlayer />
